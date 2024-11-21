@@ -1,0 +1,44 @@
+.recent {
+    display: flex;
+    .leftMenu {
+        width: 100px;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+        align-items: center;
+        .common {
+            color: black;
+            cursor: pointer;
+            height: 40px;
+            line-height: 40px;
+            border-bottom: 1px solid black;
+            width: 100%;
+            text-align: center;
+        }
+        .active {
+            color: pink;
+        }
+    }
+    .rightRecent {
+        display: flex;
+        .historyCommon {
+            width: 150px;
+            background-color: gainsboro;
+            columns: gray;
+            height: 30px;
+            margin-right: 10px;
+            line-height: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px;
+            span {
+                cursor: pointer;
+            }
+        }
+        .historyActive {
+            color: skyblue;
+            background-color: #dde5ee;
+        }
+    }
+}

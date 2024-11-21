@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,           // 不生成输出文件
+    "skipLibCheck": true,    // 跳过库文件的类型检查
+    "strict": false,         // 禁用严格模式
+    "noImplicitAny": false   // 允许隐式 any 类型
+  },
+  "extends": "./src/.umi/tsconfig.json"
+}
